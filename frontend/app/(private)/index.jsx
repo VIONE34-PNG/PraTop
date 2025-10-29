@@ -3,7 +3,7 @@ import "@/assets/styles/global.css";
 import { SafeContainer } from "@/components/SafeContainer";
 import { TextDarkMode } from "@/components/TextDarkMode";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { Pressable, Text, View } from "react-native";
+import { Image, Pressable, Text, View } from "react-native";
 import { AvatarPlaceHolder } from "../../components/AvatarPlaceHolder";
 import useConfiguracoes from "../../hooks/useConfiguracoes";
 
