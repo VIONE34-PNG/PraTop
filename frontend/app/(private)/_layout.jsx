@@ -24,6 +24,13 @@ export default function PrivateLayout() {
         }}
       />
 
+      <Tabs.Screen
+        name="carrosel"
+        options={{
+          href: null,
+        }}
+      />
+
       {/* Se você tiver rotas que não devem ser abas (ex: uma tela de detalhes),
           você pode escondê-las, e elas usam o layout pai (Stack)
       <Tabs.Screen name="[details]" options={{ href: null }} />
